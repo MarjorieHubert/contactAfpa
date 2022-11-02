@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container-fluid">
+        <img src="layout_set_logo.jfif" alt="logo">
+        <div class="borderGreen">
+            <article>
+                <form class="firstForm">
+                    <input type="text" class="firstImput" placeholder="Nom - Prénom">
+                    <input type="email" class="firstImput" placeholder="Courriel">
+                    <input type="tel" class="firstImput" placeholder="Téléphone">
+                    <select class="firstImput">
+                        <option value="" disabled selected hidden>Vous êtes...</option>
+                        <option>Chef de projet</option>
+                        <option>Développeur</option>
+                        <option>Directeur Systèmes d'information</option>
+                    </select>
+                    <textarea cols="30" rows="10" placeholder="Commentaires"></textarea>
+                </form>
+            
+                <form>
+                    <p>Quelle est la meilleure manière de vous contacter?</p>
+                    <input type="radio" name="moyenContact" id="radioTel">
+                    <label for="radioTel">Téléphone</label>
+                    <br>
+                    <input type="radio" name="moyenContact" id="radioCourriel">
+                    <label for="radioCourriel">Courriel</label>
+                
+                    <p>Jours de la semaine où vous êtes disponible :</p>
+                    <input type="checkbox" id="lundi">
+                    <label for="lundi">Lundi</label>
+                    <br>
+                    <input type="checkbox" id="mardi">
+                    <label for="mardi">Mardi</label>
+                    <br>
+                    <input type="checkbox" id="mercredi">
+                    <label for="mercredi">Mercredi</label>
+                    <br>
+                    <input type="checkbox" id="jeudi">
+                    <label for="jeudi">Jeudi</label>
+                    <br>
+                    <input type="checkbox" id="vendredi">
+                    <label for="vendredi">Vendredi</label>
+                
+                    <p>Heures appropriées pour un rendez-vous</p>
+                    <input type="checkbox" id="matin">
+                    <label for="matin">Matin</label>
+                    <br>
+                    <input type="checkbox" id="AM">
+                    <label for="AM">Après-midi</label>
+                </form>
+            </article>
+
+            <div class="separator">
+
+            </div>
+
+            <footer>
+                <button><a href="#">Envoyer</a></button>
+            </footer>
+        </div>
+    </section>
+</body>
+</html>
